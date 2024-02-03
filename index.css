@@ -1,0 +1,296 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Merriweather&display=swap');
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'EB Garamond', serif;
+    }
+
+.container-fluid{
+   background-color: #f5f5f5;
+}
+
+
+.navbar-nav{
+    margin-top: 10px;
+    margin-left: 300px;
+    justify-content: space-evenly;
+    gap: 50px;
+    position: static;
+  
+}
+
+.navbar-nav{
+    font-weight: bold;
+}
+img{
+    margin-left: 50px;
+}
+
+/* -----------------Home----------- */
+
+.first {
+    display: flex;
+    height: 100%;
+}
+
+#carouselExampleAutoplaying{
+    display: flex;
+}
+
+.text{
+    width: 50%;
+}
+.text h5{
+    margin-top: 50px;
+    margin-left: 60px;
+    color: blue;
+}
+
+.text h1{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+
+
+
+/* -----------------------------second------------------ */
+
+.second {
+    display: flex;
+   
+}
+
+.text2{
+    width: 80%;
+}
+.text2 h5{
+    
+    margin-left: 60px;
+    color: #007bff;
+}
+
+.text2 h1{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.text2 button{
+    height: 50px;
+    width: 190px;
+    margin-left: 80px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    border-radius: .5rem;
+
+}
+
+/* --------------------------------third---------- */
+
+.third{
+    display: flex;
+
+    margin-top: 30px;
+ 
+}
+
+.third .one{
+    height: 193px;
+    background-color: #007bff;
+    color: white;
+}
+
+.third .one a{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.third .one h5{
+    margin-top: 75px;
+    margin-left: 10px;
+}
+
+/* -------------------------------------------service------------------- */
+
+.service{
+    width: 100%;
+    height: 50%;
+    margin-top: -100px;
+}
+
+.service h5{
+    text-align: center;
+    color: #007bff;
+}
+
+.service h2{
+    text-align: center;
+}
+
+.Business {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.box1{
+    width: 280px;
+    height: 350px;
+    text-align: center;
+    background-color: whitesmoke;
+   
+}
+.box1 a{
+    font-size: 50px;
+}
+.box1 h5{
+    margin-top: 30px;
+}
+
+.box1 p{
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 45px;
+
+}
+
+/* ---------------------------------------------About----------------- */
+.about{
+    display: flex;
+    margin-top: 100px;
+    height: 100vh;
+
+}
+
+.ab h5{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #007bff;
+}
+.ab h2{
+    width: 500px;
+    margin-left: 40px;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.ab p{
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.image{
+    margin-left: 120px;
+    
+}
+
+.side_image{
+    margin-left: 480px;
+    margin-top: -280px;
+}
+
+
+/* -----------------------------------------------Contact--------------- */
+
+.contact{
+    height: 100%;
+}
+.contact h2{
+    margin-left: 40px;
+}
+.contact p {
+    margin-left: 50px;
+}
+
+
+/* -------------------------------Footer------------------ */
+
+.footer{
+    margin-top: 20px;
+    /* display: flex; */
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: cornsilk;
+}
+
+.copy{
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.icon{
+    margin-right: 20px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.icon a:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+/* ----------------Responsive-------------- */
+@media (max-width:500px){
+    .navbar-nav{
+        margin-right: 100px;
+    } 
+    #carouselExampleAutoplaying{
+        display: inline;
+    }
+    .third{
+        display: inline;
+       
+    }
+    .service{
+        margin-top: 50px;
+        margin-left: -30px;
+    }
+    
+    .Business{
+        gap: 10px;
+    }
+    .about{
+        display: inline;
+        width: 100vh;
+    }
+    .about h2{
+        width: 300px;
+    }
+
+    .about p{
+        width: 300px;
+    }
+    .about .image{
+        margin-top: 10px;
+        margin-left: -30px;
+        width: 100px;
+    }
+    .side_image{
+        margin-top: 10px;
+        margin-left: -0px;
+    }
+    .footer{
+        display: inline;
+    }
+}
+
+
+@media (max-width:400px) {
+    .navbar-nav a{
+        margin-right: 400px;
+    } 
+}
